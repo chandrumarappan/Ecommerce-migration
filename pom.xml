@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.paloit.ecom</groupId>
-	<artifactId>spring-boot-upload-csv-files</artifactId>
+	<artifactId>Ecommerce_Migration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Ecommerce-migration</name>
 	<description>CSV files to be validated and migrated to a new platform</description>
