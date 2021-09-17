@@ -5,7 +5,6 @@ import com.paloit.ecom.entity.OrderDetail;
 import com.paloit.ecom.entity.ResponseMessageFileUpload;
 import com.paloit.ecom.repository.OrderRepository;
 import com.paloit.ecom.utility.CsvUtility;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.*;
 import org.mockito.Mockito;
 import org.slf4j.Logger;
@@ -211,7 +210,7 @@ public class uploadCsvTest {
 		Assertions.assertEquals("Data in the csv file is not in the expected format", response.getMessage());
 	}
 
-	@Ignore @Test
+	@Test
 	@DisplayName("Test with the csv file import and load into table")
 	public void processAndLoadTest() throws Exception{
 		MockMultipartFile sampleFile = new MockMultipartFile(
